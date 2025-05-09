@@ -1,4 +1,4 @@
-page>=3.11.8
+page<=3.11.8
 streamlit
 colour-science
 numpy
