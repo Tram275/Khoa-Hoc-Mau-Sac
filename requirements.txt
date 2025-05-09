@@ -1,4 +1,4 @@
-python_version==3.11.8
+python_version=="3.11.8"
 streamlit
 colour-science
 numpy
