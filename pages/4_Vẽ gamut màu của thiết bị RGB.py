@@ -27,7 +27,7 @@ st.markdown(
     unsafe_allow_html=True)
 
 colour.plotting.plot_chromaticity_diagram_CIE1931(show=False)
-R = np.array([1.0, 0.0, 0.0]) #Vị trí đỉnh R
+R = np.array([1.0, 0.0, 0.0])
 G = np.array([0.0, 1.0, 0.0])
 B = np.array([0.0, 0.0, 1.0])
 
@@ -48,7 +48,6 @@ yB = xyB[1]
 
 tam_giac_x = [xR, xG, xB, xR]
 tam_giac_y = [yR, yG, yB, yR]
-# o: hình tròn, k: màu black
 
 plt.plot(tam_giac_x,tam_giac_y, 'k')
 figure, axes = colour.plotting.render(
