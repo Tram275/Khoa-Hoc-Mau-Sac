@@ -25,17 +25,7 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True)
-# Chỉnh kích thước biểu đồ
-# Vẽ biểu đồ
+
 figure, axes = colour.plotting.plot_chromaticity_diagram_CIE1931(show=False)
-# Hiển thị lên streamlit
 st.pyplot(figure)
-# Tiêu đề
-st.markdown(
-    """
-    <div style='text-align: center; padding-top: 0px;'>
-        <h3.5>Biểu đồ CIE</h3.5>
-    </div>
-    """,
-    unsafe_allow_html=True)
 
