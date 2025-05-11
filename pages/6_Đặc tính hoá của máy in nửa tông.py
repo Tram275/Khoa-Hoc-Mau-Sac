@@ -84,6 +84,7 @@ chon_item = st.sidebar.radio("Chọn các mục sau", ("Ảnh trộn màu vàng 
                                                   "Đường cong tái tạo tông màu vàng và tím",
                                                   "Trộn hai màu vàng và tím"))
 if chon_item == "Ảnh trộn màu vàng và tím":
+    st.info("Bạn đã chọn Ảnh trộn màu vàng và tím")
     cmfs = colour.MSDS_CMFS['CIE 1931 2 Degree Standard Observer']
     illuminant = colour.SDS_ILLUMINANTS['D65']
 
@@ -111,6 +112,7 @@ if chon_item == "Ảnh trộn màu vàng và tím":
         plt.title('Mix Yellow and Magenta Colors')
         st.pyplot(fig, clear_figure=True)
 elif chon_item == "Phổ màu vàng và tím trên nền trắng":
+    st.info("Bạn đã chọn Phổ màu vàng và tím trên nền trắng")
     w = np.linspace(400, 700, 31)
     col1, col2 = st.columns(2)
     with col1:
@@ -138,6 +140,7 @@ elif chon_item == "Phổ màu vàng và tím trên nền trắng":
         plt.title('Phổ màu tím trên nền trắng với a = 0:0.1:1')
         st.pyplot(fig, clear_figure=True)
 elif chon_item == "Đường cong tái tạo tông màu vàng và tím":
+    st.info("Bạn đã chọn Đường cong tái tạo tông màu vàng và tím")
     n = 20
     a_target = np.linspace(0, 1, 11)
     col1, col2 = st.columns(2)
@@ -169,6 +172,7 @@ elif chon_item == "Đường cong tái tạo tông màu vàng và tím":
         plt.title('Đường cong tái tạo tông màu tím')
         st.pyplot(fig, clear_figure=True)
 elif chon_item == "Trộn hai màu vàng và tím":
+    st.info("Bạn đã chọn Trộn hai màu vàng và tím")
     _, col, _ = st.columns([1, 3, 1])
     with col:
         pham_vi = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
