@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import colour
 import numpy as np
 # Tên và icon của page
-st.set_page_config(
-    page_title="Vẽ gamut màu của thiết bị RGB", layout="wide", page_icon="🙀")
+st.set_page_config(page_title="Vẽ gamut màu của thiết bị RGB", layout="wide", page_icon="🙀")
 # Logo và tên của trường
 st.markdown(
     """
