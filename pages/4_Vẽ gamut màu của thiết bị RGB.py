@@ -57,11 +57,3 @@ figure, axes = colour.plotting.render(
     x_tighten=True,
     y_tighten=True)
 st.pyplot(figure, clear_figure=True)
-# Tiêu đề
-st.markdown(
-    """
-    <div style='text-align: center; padding-top: 0px;'>
-        <h3.5>Gamut màu của thiết bị RGB</h3.5>
-    </div>
-    """,
-    unsafe_allow_html=True)
