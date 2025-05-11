@@ -5,8 +5,6 @@ import base64
 import json
 import math
 import streamlit.components.v1 as components
-import time
-
 # Tên và icon của page
 st.set_page_config(page_title="Tự chọn - Độ sai lệch và sự phối trộn màu sắc", layout="wide", page_icon="😽")
 # Logo và tên của trường
