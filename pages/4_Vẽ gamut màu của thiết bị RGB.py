@@ -25,7 +25,14 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True)
-
+# Tiêu đề
+st.markdown(
+    """
+    <div style='text-align: center; padding-top: 0px;'>
+        <h2>Vẽ gamut màu của thiết bị RGB</h2>
+    </div>
+    """,
+    unsafe_allow_html=True)
 colour.plotting.plot_chromaticity_diagram_CIE1931(show=False)
 R = np.array([1.0, 0.0, 0.0])
 G = np.array([0.0, 1.0, 0.0])
