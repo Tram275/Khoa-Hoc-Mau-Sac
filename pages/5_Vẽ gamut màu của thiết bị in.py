@@ -3,10 +3,8 @@ import matplotlib.pyplot as plt
 import colour
 import numpy as np
 import pandas as pd
-
 # Tên và icon của page
 st.set_page_config(page_title="Vẽ gamut màu của thiết bị in", layout="wide", page_icon="😹")
-
 # Logo và tên của trường
 st.markdown(
     """
@@ -20,7 +18,6 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True)
-
 # Tiêu đề
 st.markdown(
     """
@@ -29,7 +26,6 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True)
-
 # Nền màu gradient xanh dương và tím
 st.markdown(
     """
