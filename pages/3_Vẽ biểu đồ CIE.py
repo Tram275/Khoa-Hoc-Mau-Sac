@@ -25,7 +25,14 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True)
-
+# Tiêu đề
+st.markdown(
+    """
+    <div style='text-align: center; padding-top: 0px;'>
+        <h2>Vẽ biểu đồ CIE</h2>
+    </div>
+    """,
+    unsafe_allow_html=True)
 figure, axes = colour.plotting.plot_chromaticity_diagram_CIE1931(show=False)
 st.pyplot(figure)
 
